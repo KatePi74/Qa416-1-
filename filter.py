@@ -3,8 +3,8 @@ import pandas as pd
 # Загрузка данных
 df = pd.read_csv("data.csv")
 
-# Фильтрация данных (например, выбираем строки, где значение в колонке 'age' больше 30)
-filtered_df = df[df["age"] > 30]
+# Фильтрация данных (например, выбираем строки, где значение в колонке 'weight' больше 100)
+filtered_df = df[df["weight"] > 100]
 
 # Сохранение результата
 filtered_df.to_csv("filtered_data.csv", index=False)
