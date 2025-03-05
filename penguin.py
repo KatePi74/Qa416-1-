@@ -68,7 +68,7 @@ def main(stdscr):
                 stdscr.refresh()
             is_jumping = False  # Сброс флага после завершения прыжка
 
-        elif key == ord('q'):  # Выход из программы при нажатии 'q'
+        elif key == 27:  # Выход из программы при нажатии 'Esc'
             break
 
 
